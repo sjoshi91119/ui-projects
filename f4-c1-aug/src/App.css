@@ -1,0 +1,38 @@
+.container {
+  border: 1px solid silver;
+  border-radius: 20px;
+  font-family: sans-serif;
+  width: 20%;
+  height: 45%;
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: -10px 10px 45px rgb(241, 101, 143),
+    10px -10px 45px rgb(77, 94, 252);
+}
+input {
+  width: 70%;
+  margin: 2% 10%;
+  padding: 8px 10px;
+  border: 2px solid black;
+}
+.operator-list {
+  margin: 3% auto;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  padding: 8px 18px;
+  background-color: rgb(29, 28, 28);
+  border: 1px solid silver;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.status {
+  margin: 20px 0px;
+  padding-top: 25px;
+}
